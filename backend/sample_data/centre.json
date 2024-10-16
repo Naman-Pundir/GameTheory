@@ -1,0 +1,15 @@
+[
+    {
+      "_id": "center1",
+      "name": "Indiranagar",
+      "location": "Bangalore",
+      "sports_id": ["sport1", "sport2"]
+    },
+    {
+      "_id": "center2",
+      "name": "Koramangala",
+      "location": "Bangalore",
+      "sports_id": ["sport2", "sport3", "sport4"]
+    }
+  ]
+  
