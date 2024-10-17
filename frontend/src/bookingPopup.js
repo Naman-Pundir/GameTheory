@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, TextField, Button } from '@mui/material';
 import axios from 'axios';
 
-const BASE_URL = 'http://127.0.0.1:8080';
+const BASE_URL = 'https://gt-backend-lcah.onrender.com';
 
 const BookingPopup = ({ open, onClose, center, sport, court, timeSlot, date, onBookingCreated }) => {
     const [customerName, setCustomerName] = useState('');
