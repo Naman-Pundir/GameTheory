@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import BookingPopup from './bookingPopup';
 
-const BASE_URL = 'http://127.0.0.1:8080';
+const BASE_URL = 'https://gt-backend-lcah.onrender.com';
 
 const BookingTable = ({ selectedCenter, selectedSport, selectedDate }) => {
     const [courts, setCourts] = useState([]);
