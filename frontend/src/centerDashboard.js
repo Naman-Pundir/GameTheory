@@ -14,7 +14,7 @@ import {
     MenuItem,
 } from '@mui/material';
 
-const BASE_URL = 'http://127.0.0.1:8080';
+const BASE_URL = 'https://gt-backend-lcah.onrender.com';
 
 const CenterDashboard = () => {
     const [centers, setCenters] = useState([]);
